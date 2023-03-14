@@ -9,7 +9,7 @@ export interface Props {
 }
 
 export const ProductTitle = ({ title, className, style }: Props) => {
-  // esta forma de definir la variable con su tipo es como si fuera una interface pero de una sola variable
+  // esta forma de definir la variable con su tipo es como si fuera una interface pero de una sola variable d
   const { product } = useContext(ProductContext);
   /* let titleToShow: string;
   title ? (titleToShow = title) : (titleToShow = product.title); */
